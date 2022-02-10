@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Test\\BaseTest\\DataTest::testRawData":0.008,"Test\\BaseTest\\ParsedDataTest::testGetActualData":0.004,"Test\\BaseTest\\ParsedDataTest::testGetDataInJson":0.001}}

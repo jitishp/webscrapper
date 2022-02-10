@@ -1,0 +1,27 @@
+{
+    "name": "tbone/videx",
+    "description": "Webscrapper",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jitish",
+            "email": "jitish.p@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "phpgt/cssxpath": "^1.1"
+    },
+    "autoload": {
+        "files": [
+            "scrapper.php"
+        ],
+        "psr-4": {
+            "Base\\": "Base",
+            "Test\\": "Test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
