@@ -13,10 +13,10 @@ require 'vendor/autoload.php';
 // libxml_use_internal_errors(true); // Suppress the HTML errors generating
 
 //Connect to the URL given
-// $web = new Base\WebConnect();
-// $web->connectAndFetch();
-// $content = $web->getUrlContent();
-$content = TestData::HTML_CONTENT;
+$web = new Base\WebConnect();
+$web->connectAndFetch();
+$content = $web->getUrlContent();
+
 
 //Convert the String format into DOMDocument and DOMXPath
 $raw = new Base\Data();
@@ -25,4 +25,4 @@ $rawContent = $raw->getRawData();
 
 //Return the required data in JSON
 $parsed = new Base\ParsedData($rawContent);
-//echo $parsed->getDataInJson();
+echo $parsed->getDataInJson();
