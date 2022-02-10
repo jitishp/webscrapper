@@ -13,8 +13,7 @@ class WebConnect implements ConnectInterface
     /**
      * @todo remove the constant and make it as an input from user
      */
-    // const URL = "https://videx.comesconnected.com/";
-    const URL = "https://jjroofingsupplies.co.uk/";
+    const URL = "https://videx.comesconnected.com/";
 
     /**
      * Holds the Client type object
